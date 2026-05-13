@@ -1,3 +1,13 @@
 spring:
   application:
     name: greek-laws-mcp
+
+  ai:
+    mcp:
+      server:
+        name: greek-laws-mcp
+        version: 1.0.0
+        type: SYNC
+        stdio: true
+        instructions: >
+          Search public Greek Parliament law metadata. This server does not provide legal advice.
